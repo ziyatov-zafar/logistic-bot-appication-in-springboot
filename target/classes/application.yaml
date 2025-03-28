@@ -12,7 +12,8 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 8092
+  port: 
+  
 bot:
   username: https://t.me/Ismoddin_logistika_robot
   token: 7465906351:AAHwwJNS16e5GLYO459QJ_MPMeEBV3aPjHs
