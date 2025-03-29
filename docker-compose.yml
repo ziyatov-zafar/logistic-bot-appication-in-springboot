@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: logisticsApplication
+  datasource:
+    url: jdbc:postgresql://db:5432/logistic_bot_db  # db:5432 -- docker-compose faylida belgilangan nom
+    username: postgres  # Docker Compose faylida belgilangan foydalanuvchi nomi
+    password: zafar123  # Docker Compose faylida belgilangan parol
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976650f9-009a-466b-bc70-df58cf5fb2a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/zafar/logisticsapplication/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +150,7 @@
       <workItem from="1743175397560" duration="4997000" />
       <workItem from="1743205494750" duration="1494000" />
       <workItem from="1743208347004" duration="852000" />
-      <workItem from="1743209330300" duration="644000" />
+      <workItem from="1743209330300" duration="2302000" />
     </task>
     <servers />
   </component>
