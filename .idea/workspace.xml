@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976650f9-009a-466b-bc70-df58cf5fb2a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/zafar/logisticsapplication/bot/role_super_admin/SuperAdminFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/zafar/logisticsapplication/bot/role_super_admin/SuperAdminFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uz/zafar/logisticsapplication/bot/role_super_admin/SuperAdminFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uz/zafar/logisticsapplication/bot/role_super_admin/SuperAdminFunction.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <recent name="C:\Users\Farobiy students\Desktop\zafar projectsa\logisticsApplication\src\main\java\uz\zafar\logisticsapplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile build">
+  <component name="RunManager" selected="Spring Boot.LogisticsApplication">
     <configuration name="LogisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="logisticsApplication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="uz.zafar.logisticsapplication.LogisticsApplication" />
