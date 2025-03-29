@@ -28,9 +28,9 @@ spring:
     name: logisticsApplication
   datasource:
     # Railway URL (DATABASE_URL)
-    url: jdbc:postgresql://postgres.railway.internal:5432/railway
-    username: postgres
-    password: lUmBEmcrdjpLrRMfHgIeSXRAqPqAwjGK
+    url: jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:6543/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: postgres.xpokgmrwfjbpazgxhcrh
+    password: Zafar123$^&
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -46,6 +46,6 @@ bot:
 
 admin:
   chat:
-    id: 78823168261
+    id: 7882316826
 
 size: 10

@@ -1,10 +1,36 @@
+#spring:
+#  application:
+#    name: logisticsApplication
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/logistic_bot_db
+#    username: postgres
+#    password: zafar123
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#server:
+#  port: 8080  # Railway yoki boshqa platforma uchun portni avtomatik taqdim etadi, lekin agar kerak bo'lsa, uni mana shu tarzda o'zgartirish mumkin
+#
+#bot:
+#  username: https://t.me/Ismoddin_logistika_robot
+#  token: 7465906351:AAHwwJNS16e5GLYO459QJ_MPMeEBV3aPjHs
+#
+#admin:
+#  chat:
+#    id: 78823168261
+#
+#size: 10
 spring:
   application:
     name: logisticsApplication
   datasource:
-    url: jdbc:postgresql://localhost:5432/logistic_bot_db
-    username: postgres
-    password: zafar123
+    # Railway URL (DATABASE_URL)
+    url: jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:6543/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: postgres.xpokgmrwfjbpazgxhcrh
+    password: Zafar123$^&
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -20,6 +46,6 @@ bot:
 
 admin:
   chat:
-    id: 78823168261
+    id: 7882316826
 
 size: 10
