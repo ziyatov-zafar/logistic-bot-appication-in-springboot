@@ -28,9 +28,10 @@ spring:
     name: logisticsApplication
   datasource:
     # Railway URL (DATABASE_URL)
-    url: jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:6543/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
-    username: postgres.xpokgmrwfjbpazgxhcrh
-    password: Zafar123$^&
+    url: jdbc:postgresql://dpg-cvjmfs8gjchc73d5j3tg-a.oregon-postgres.render.com:5432/postgresqldblogisticbot
+
+    username: logisticbotdb
+    password: 6U3CK6hJIX2AW5BUEZJtQwH20LbTiC9z
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
