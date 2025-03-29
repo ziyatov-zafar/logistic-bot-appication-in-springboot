@@ -342,14 +342,18 @@ public class AdminFunction extends Function {
         userService.save(user);
     }
 
-    private String getMsg(List<User> content) {
-        String msg = "Ushbu foydalanuvchilarning ro'yxati\n\n";
-        for (int i = 0; i < content.size(); i++) {
-            msg = msg.concat("\t%d.  <a href=\"tg://user?id=%d\" >%s</a> (Username: %s)\n".formatted(
-                    i + 1, content.get(i).getChatId(),
-                    content.get(i).getFirstname() + (content.get(i).getLastname() == null ? "" : " " + content.get(i).getLastname()),
-                    content.get(i).getUsername() == null ? "Mavjud emas" : ("@" + content.get(i).getUsername())
-            ));
+    private String getMsg(List<User> users) {
+        String msg = "<b>Foydalanuvchilarning ro'yxati</b>\n\n";
+        for (int i = 0; i < users.size(); i++) {
+            String fullName = users.get(i).getFirstname();
+            fullName = fullName.concat(users.get(i).getLastname() == null ? "" : " " + users.get(i).getLastname());
+
+            // Maxsus belgilarni qo‘lda qochirish (&, <, > ni almashtirish)
+            fullName = fullName.replace("&", "&amp;")
+                    .replace("<", "&lt;")
+                    .replace(">", "&gt;");
+
+            msg = msg.concat("%d. <a href=\"tg://user?id=%d\">%s</a>\n".formatted(i + 1, users.get(i).getChatId(), fullName));
         }
         return msg;
     }
