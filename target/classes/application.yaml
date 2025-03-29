@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: logisticsApplication
@@ -11,13 +10,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 server:
-  port: 
-  
+  port: 8080  # Railway yoki boshqa platforma uchun portni avtomatik taqdim etadi, lekin agar kerak bo'lsa, uni mana shu tarzda o'zgartirish mumkin
+
 bot:
   username: https://t.me/Ismoddin_logistika_robot
   token: 7465906351:AAHwwJNS16e5GLYO459QJ_MPMeEBV3aPjHs
+
 admin:
   chat:
     id: 78823168261
+
 size: 10
