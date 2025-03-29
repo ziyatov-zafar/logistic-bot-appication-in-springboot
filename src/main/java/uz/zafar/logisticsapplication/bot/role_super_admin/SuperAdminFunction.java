@@ -36,6 +36,10 @@ public class SuperAdminFunction extends Function {
     }
 
     public void menu(User user, String text, int size) {
+        if (text.equals("\uD83D\uDD19 Orqaga qaytish")){
+            start(user);
+            return;
+        }
         String[] menu = new String[]{
                 "Foydalanuvchilar bo'limi", "Reklama bo'limi", "Statistika bo'limi", "Foydalanuvchilarni chat id bo'yicha qidirish"
         };
