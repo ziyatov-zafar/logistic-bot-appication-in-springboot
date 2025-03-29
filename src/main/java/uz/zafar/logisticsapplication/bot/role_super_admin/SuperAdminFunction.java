@@ -192,11 +192,17 @@ public class SuperAdminFunction extends Function {
     }
 
     private String getUsersText(List<User> users) {
-        String msg = "Foydalanuvchilarning ro'yxati\n\n";
+        String msg = "<b>Foydalanuvchilarning ro'yxati</b>\n\n";
         for (int i = 0; i < users.size(); i++) {
             String fullName = users.get(i).getFirstname();
             fullName = fullName.concat(users.get(i).getLastname() == null ? "" : " " + users.get(i).getLastname());
-            msg = msg.concat("%d. <a href=\"tg://user?id=%d\" >%s</a>\n".formatted(i + 1, users.get(i).getChatId(), fullName));
+
+            // Maxsus belgilarni qo‘lda qochirish (&, <, > ni almashtirish)
+            fullName = fullName.replace("&", "&amp;")
+                    .replace("<", "&lt;")
+                    .replace(">", "&gt;");
+
+            msg = msg.concat("%d. <a href=\"tg://user?id=%d\">%s</a>\n".formatted(i + 1, users.get(i).getChatId(), fullName));
         }
         return msg;
     }
