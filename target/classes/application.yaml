@@ -3,26 +3,20 @@ spring:
   application:
     name: logisticsApplication
   datasource:
-    # Railway URL (DATABASE_URL)
-    url: jdbc:postgresql://dpg-cvjmfs8gjchc73d5j3tg-a.oregon-postgres.render.com:5432/postgresqldblogisticbot
-
-    username: logisticbotdb
-    password: 6U3CK6hJIX2AW5BUEZJtQwH20LbTiC9z
+    url: jdbc:postgresql://localhost:5432/logistic_bot_db
+    username: postgres
+    password: zafar123
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-
 server:
-  port: 8080  # Railway yoki boshqa platforma uchun portni avtomatik taqdim etadi, lekin agar kerak bo'lsa, uni mana shu tarzda o'zgartirish mumkin
-
+  port: 8092
 bot:
   username: https://t.me/Ismoddin_logistika_robot
   token: 7465906351:AAHwwJNS16e5GLYO459QJ_MPMeEBV3aPjHs
-
 admin:
   chat:
     id: 7882316826
-
 size: 10
