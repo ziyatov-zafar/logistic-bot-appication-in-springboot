@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/logistic_bot_db
     username: postgres
-    password: zafar123
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -14,8 +14,8 @@ spring:
 server:
   port: 8092
 bot:
-  username: https://t.me/Ismoddin_logistika_robot
-  token: 7465906351:AAHwwJNS16e5GLYO459QJ_MPMeEBV3aPjHs
+  username: https://t.me/Isomiddin_Fura_Xizmati_Robot
+  token: 7903656257:AAHc5CGlgsJVXTqfGlpybWTgRQaYr7xOIB8
 admin:
   chat:
     id: 7882316826
