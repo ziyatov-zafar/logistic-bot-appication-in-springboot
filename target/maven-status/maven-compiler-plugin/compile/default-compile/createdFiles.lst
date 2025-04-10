@@ -46,5 +46,6 @@ uz\zafar\logisticsapplication\bot\role_loader\RoleLoaderMsg.class
 uz\zafar\logisticsapplication\db\domain\Country.class
 uz\zafar\logisticsapplication\dto\ResponseDto.class
 uz\zafar\logisticsapplication\bot\role_admin\AdminFunction.class
+uz\zafar\logisticsapplication\controller\UserController.class
 uz\zafar\logisticsapplication\db\repositories\LoadRepository.class
 uz\zafar\logisticsapplication\bot\role_driver\DriverFunction.class
