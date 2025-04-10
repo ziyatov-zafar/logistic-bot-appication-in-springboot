@@ -12,7 +12,7 @@ spring:
       ddl-auto: update
     show-sql: true
 server:
-  port: 8092
+  port: 8090
 bot:
   username: https://t.me/Isomiddin_Fura_Xizmati_Robot
   token: 7903656257:AAHc5CGlgsJVXTqfGlpybWTgRQaYr7xOIB8
